@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="res/favicon.ico">
 
     <title>Progreso</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="res/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <link href="res/signin.css" rel="stylesheet">
   </head>
 
   <body class="container-fluid">
-      <div class="col h-100" id="sidebar" src="temp.png" alt="`limtemp"> </div>
+      <div class="col h-100" id="sidebar" src="res/temp.png" alt="`limtemp"> </div>
 <div class="col cont text-center">
     <form class="form-signin">
       <h1 class="mb-5 h3 font-weight-normal">`welcome</h1>
