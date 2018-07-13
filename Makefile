@@ -6,10 +6,10 @@ all: eng.html spa.html
 	loca -o $@ -l $* index.html.loc
 
 clean:
-	rm *.html
+	rm *.html progreso-login.zip
 
 dist: all res
-	mkdir progreso-new
-	cp -r *.html res progreso-new/
-	zip -f progreso-new.zip progreso-new
-	rm -rf progreso-new/
+	mkdir progreso-login
+	cp -r *.html res progreso-login/
+	zip -f progreso-login.zip progreso-login
+	rm -rf progreso-login/
